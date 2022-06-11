@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="form.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="https://kit.fontawesome.com/a23a0af2ea.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<body>
+    <!--
+    
+    -->
+    <div class="topnav">
+        <a href="#Aboutme">About Me</a>
+        <a href="#contact">Contact Me</a>
+        <a href="#register">Register Me</a>
+        <a href="#login">Log In</a>
+      </div>
+    <div class="Aboutme">
+        <p>ABOUT <br>ME!</p>
+        My name is <b>SAMUEL ANIEKEME</b>
+       <br> I am female and I love books. I also love playing games and i'm very proud to say <br>that I have incredible friends.
+       I am almost done with my college degree but asuu strike just makes university experience meh...
+       <br> I got into Altschool and i'm very excited about it.
+       I want to be a very good cloud engineer, one of the very best there will be. 
+      <ul>
+          My educational life? Omoooo... They are listed below sha. lol.
+          <li>I currently am in the University of Nigeria, Nsukka.</li>
+          <li>Attended Federal Government Girls' College Calabar</li>
+          <li>Attended Vickstell International Nursery and Primary Schools</li>
+      </ul>
+        That's all and I don't have any previous Job experiences.
+        Did I mention I read books and played games for fun?
+        <br>
+        Just In: The picture below is Michelle Obama.
+
+    </div>
+
+    <div class="picture"> <img src="./michelle.jpeg"></div>
+    
+    <div class="contact">
+        <p>CONTACT PAGE</p>
+        <div class="container">
+            <form action="action_page.php">
+          
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" placeholder="Your name..">
+          
+              <label for="email">Email</label>
+              <input type="text" id="email" name="email" placeholder="Email..">
+
+          
+              <label for="subject">Message</label>
+              <textarea id="subject" name="subject" placeholder="Write something.." style="height:150px"></textarea>
+
+              <select id="country" name="country" >
+                <option value="australia">In one hour</option>
+                <option value="canada">In one week</option>
+                <option value="usa">In one year</option>
+              </select>
+              <input type="submit" value="Submit">
+          
+            </form>
+          </div>
+    </div>
+
+    <div class="register">
+        <p>REGISTER NOW</p>
+        <div>
+            <label for="first_name">First Name</label>
+            <input
+            type="text"
+            name="first_name"
+            id="first_name"
+            class="first_name"
+            required
+            />
+            </div>
+            <div>
+                <label for="last_name">Last Name</label>
+                <input 
+                type="text"
+                name="last_name"
+                id="last_name"
+                class="last_name"
+                required>
+            </div>
+            <div>
+                <label for="email">Phone Number</label>
+                <input 
+                type="text"
+                name="phone_number"
+                id="phone_number"
+                class="phone_number"
+                required>
+            </div>
+            <div>
+                <label for="gender">Gender</label>
+                <select>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="Prefer not to say">Prefer not to say</option>
+                </select>
+            </div>
+            <div>
+                <label for="email">Country</label>
+                <input 
+                type="text"
+                name="country"
+                id="country"
+                class="country"
+                required>
+            </div>
+            <div>
+                <label for="email">State/Province</label>
+                <input 
+                type="text"
+                name="state/province"
+                id="state/province"
+                class="state/province"
+                required>
+            </div>
+            <div>
+                <label for="email">Username</label>
+                <input 
+                type="text"
+                name="username"
+                id="username"
+                class="username"
+                required>
+            </div>
+            <div>
+                <label for="email">Email</label>
+                <input 
+                type="text"
+                name="password"
+                id="password"
+                class="password"
+                required>
+            </div>
+            <div>
+                <label for="email">Confirm Password</label>
+                <input 
+                type="text"
+                name="confirmpassword"
+                id="confirmpassword"
+                class="confirmpassword"
+                required>
+            </div>
+            <input type="submit" value="Register">
+    </div>
+
+    <div class="login">
+        <p>LOG IN</p>
+        <label for="name">Username</label>
+        <input type="text" id="username" name="name" placeholder="Username..">
+        <label for="name">Password</label>
+        <input type="text" id="name" name="name" placeholder="Password..">
+        <input type="submit" value="Sign In">
+    </div>
+
+    <div class="calculator">
+        <p>Calculator</p>
+        <input type="text" name="input" size="16" id="answer">
+        <br>
+        <input type="button" name="one" value="1" onclick="calc.input.value += '1' ">
+        <input type="button" name="two" value="2"onclick="calc.input.value += '2' ">
+        <input type="button" name="three" value="3"onclick="calc.input.value += '3' ">
+        <input type="button" class="operator" name="plus" value="+"onclick="calc.input.value += '+' ">
+        <br>
+        <input type="button" name="four" value="4"onclick="calc.input.value += '4' ">
+        <input type="button" name="five" value="5"onclick="calc.input.value += '5' ">
+        <input type="button" name="six" value="6"onclick="calc.input.value += '6' ">
+        <input type="button" class="operator" name="minus" value="-"onclick="calc.input.value += '-' ">
+        <br>
+        <input type="button" name="two" value="7"onclick="calc.input.value += '7' ">
+        <input type="button" name="two" value="8"onclick="calc.input.value += '8' ">
+        <input type="button" name="two" value="9"onclick="calc.input.value += '9' ">
+        <input type="button" class="operator" name="times" value="*"onclick="calc.input.value += '*' ">
+        <br>
+        <input type="button" name="clear" name="clear" value="C"onclick="calc.input.value += ' ' ">
+        <input type="button" name="zero" value="0"onclick="calc.input.value += '0' ">
+        <input type="button" name="doit" value="="onclick="calc.input.value=eval(calc.input.value)">
+        <input type="button" class="operator" name="div" value="/"onclick="calc.input.value += '/' ">
+    </div>
+</body>
+</html>

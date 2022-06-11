@@ -1,0 +1,137 @@
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px;
+    margin-bottom: 16px; 
+    resize: vertical;
+  }
+  
+  
+  input[type=submit] {
+    background-color: rgb(69, 69, 105);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: auto;
+  }
+
+  input[type=submit]:hover {
+    background-color: aliceblue;
+    color: rgb(69, 69, 105);
+  }
+  
+
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+.topnav {
+    background-color: rgb(69, 69, 105);
+    overflow: hidden;
+  }
+  
+
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+  .topnav a:hover {
+    background-color: aliceblue;
+    color: rgb(69, 69, 105);
+  }
+.dropdown .dropbtn{
+    display: block;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    background-color: inherit;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 2);
+    z-index: left;
+}
+.dropdown-content a{
+    display: block;
+    color: black;   
+    padding: 12px 16px;
+    text-decoration: none;
+}
+input{
+  border :0;
+  color: #495069;
+  background-color: 4px;
+  width: 60px;
+  height: 50px;
+  margin: 5px;
+  font-size: large;
+  box-shadow: 0 4px rgba(0, 0, 0, 0, 2);
+}
+.operator{
+  background-color: #f1ff92;
+  position: relative;
+}
+#answer{
+  width: 290px;
+  font-size: 26px;
+  text-align: center;
+  background-color: #f1faeb;
+}
+#answer:hover{
+  width: 290px;
+  font-size: 26px;
+  text-align: center;
+  box-shadow: 0 4px rgba(0, 0,0, 0, 2);
+  background-color: #f1faeb;
+}
+.Aboutme{
+  justify-items: center;
+}
+.Aboutme p{
+  font-size: 3em;
+  color: rgb(69, 69, 105) ;
+  text-align: center;
+}
+.picture{
+  display: flex;
+}
+.contact p{
+  font-size: 3em;
+  background-color: rgb(69, 69, 105) ;
+  color: aliceblue;
+  padding: 1rem;
+  text-align: center;
+}
+.register  p{
+  font-size: 3em;
+  color: rgb(69, 69, 105) ;
+}
+.login p{
+  font-size: 3em;
+  color: rgb(69, 69, 105) ;
+}
+.calculator p{
+  font-size: 3em;
+  background-color: rgb(69, 69, 105) ;
+  color: aliceblue;
+  text-align: center;
+  padding: 1rem;
+}
+.calculator{
+  text-align: center;
+}
